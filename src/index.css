@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #1c2230;
+}
+html {
+  scroll-behavior: smooth;
+}
+@layer {
+  .element-center {
+    @apply flex justify-center items-center;
+  }
+  .container {
+    @apply px-[30px];
+  }
+  .btn {
+    /* @apply text-white rounded-[30px] bg-[#56cfd9]; */
+    @apply text-white rounded-[30px] bg-btnColor;
+  }
+}
