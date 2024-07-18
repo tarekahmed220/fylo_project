@@ -7,7 +7,11 @@ function Footer() {
     <section className="py-[250px] px-[30px] md:px-[100px] bg-[#0c1524] text-white max-w-full">
       <div className="  w-[360px] pb-[30px] max-w-full">
         <a href="">
-          <img className=" w-[230px] " src="/images/logo.svg" alt="logo-img" />
+          <img
+            className=" w-[230px] "
+            src="../../images/logo.svg"
+            alt="logo-img"
+          />
         </a>
       </div>
       <div className="flex justify-between items-start gap-5 max-w-full flex-col md:flex-row">
@@ -15,7 +19,7 @@ function Footer() {
           <div>
             <img
               className="w-[15px] absolute top-[6px] left-0"
-              src="/images/icon-location.svg"
+              src="../../images/icon-location.svg"
               alt="location-img"
             />
           </div>
@@ -33,7 +37,7 @@ function Footer() {
             <div>
               <img
                 className=" min-w-[20px]"
-                src="/images/icon-phone.svg"
+                src="../../images/icon-phone.svg"
                 alt="phone-img"
               />
             </div>
@@ -43,7 +47,7 @@ function Footer() {
             <div>
               <img
                 className="w-[20px]"
-                src="/images/icon-email.svg"
+                src="../../images/icon-email.svg"
                 alt="email-img"
               />
             </div>
