@@ -6,7 +6,7 @@ function StayProductive() {
         <div className="grid grid-cols-1 md:grid-cols-2 place-items-center text-white">
           <div>
             <img
-              src="../../images/illustration-stay-productive.png"
+              src="/images/illustration-stay-productive.png"
               alt="Stay-productive-img"
             />
           </div>
@@ -31,7 +31,7 @@ function StayProductive() {
               >
                 <h2 className="">See how Fylo works</h2>
                 <img
-                  src="../../images/icon-arrow.svg"
+                  src="/images/icon-arrow.svg"
                   alt="arrow-img"
                   className="object-contain w-[20px] animate-[iconMove_1s_ease-in-out_infinite]"
                 />

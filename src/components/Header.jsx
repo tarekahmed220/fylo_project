@@ -24,7 +24,7 @@ function Header() {
       <div className="flex justify-between items-center container px-[30px]  flex-col sm:flex-row  mx-auto">
         <a href="/">
           <div className="mb-[15px] sm:mb-0">
-            <img src="../../images/logo.svg" alt="logo" />
+            <img src="/images/logo.svg" alt="logo" />
           </div>
         </a>
         <ul className="flex gap-[30px] ">

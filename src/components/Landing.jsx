@@ -6,10 +6,7 @@ function Landing() {
           <div className="element-center flex-col sm:mt-[170px] mt-[220px]  ">
             <div>
               <a href="/">
-                <img
-                  src="../../images/illustration-intro.png"
-                  className="w-full"
-                />
+                <img src="/images/illustration-intro.png" className="w-full" />
               </a>
             </div>
             <div className="text-center element-center flex-col mt-[30px]   ">
@@ -33,7 +30,7 @@ function Landing() {
       </section>
       <div className="h-[170px] sm:h-[300px]">
         <img
-          src="../../images/bg-curvy-desktop.svg"
+          src="/images/bg-curvy-desktop.svg"
           alt="desktop-img"
           className="w-full h-full "
         />
